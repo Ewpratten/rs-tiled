@@ -36,7 +36,7 @@ pub struct TileData {
 #[derive(Debug)]
 pub struct Tile<'tileset> {
     pub(crate) tileset: &'tileset Tileset,
-    pub(crate) data: &'tileset TileData,
+    pub data: &'tileset TileData,
 }
 
 impl<'tileset> Tile<'tileset> {
